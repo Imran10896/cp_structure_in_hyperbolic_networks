@@ -6,6 +6,9 @@
 
 ## Paper titled  " Uncovering the hidden core-periphery structure in hyperbolic networks" 
 
+
+** cp_centralization** Calculate the core periphery centralization(cp-centralization) of a graph.
+** statistical_test** Calculate the p-value for the cp-centralization of the given graph.
 ** S1_H2_NETWORK**  This following folder cobtains the matlab code for the network generation corresponding to the S1/H2 model
     
     
