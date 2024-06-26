@@ -9,13 +9,13 @@ import networkx as nx
 
 def cp_centralization(G):
     """
-    Calculate the core periphery centralization of a graph.
+    Calculate the core periphery centralization(cp-centralization) of a graph.
 
     Parameters:
     G (networkx.Graph): The input graph.
 
     Returns:
-    float: The centralization score of the graph.
+    float: The (cp-centralization) value of the graph.
     """
     # Instantiate the Rossa algorithm from cpnet
     alg = cpnet.Rossa()
@@ -37,8 +37,8 @@ def cp_centralization(G):
 # Example graph: Karate Club Graph
 G = nx.karate_club_graph()
 
-# Calculate the centralization of the example graph
+# Calculate the cp-centralization of the example graph
 centralization = cp_centralization(G)
 
-# Output the centralization score
-centralization
+# Print the cp-centralization 
+print(f"The cp-centralization score of the Karate Club graph is: {centralization}")
