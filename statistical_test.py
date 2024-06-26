@@ -27,7 +27,7 @@ def calculate_p_value(G):
     p_value = np.sum(C_100 >= C) / len(C_100)
     return p_value
 
-# Example usage with a random graph
+# Example 
 G = nx.karate_club_graph()  # Example graph, replace with actual graph
 p_value = calculate_p_value(G)
 print(f"The p-value of the given graph is: {p_value}")
