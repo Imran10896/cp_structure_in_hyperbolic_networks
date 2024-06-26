@@ -1,6 +1,3 @@
-import numpy as np
-import networkx as nx
-
 def calculate_p_value(G):
     """
     Calculate the p-value for the cp-centralization of the given graph.
@@ -17,8 +14,7 @@ def calculate_p_value(G):
     for i in range(100):
         hh_graph = nx.havel_hakimi_graph(degree_sequence)
         C = cp_centralization(hh_graph)
-        if C is not None:
-            C_100.append(C)
+        C_100.append(C)
     
     C = cp_centralization(G)
     
