@@ -9,7 +9,8 @@
 
 ** cp_centralization** Calculate the core periphery centralization(cp-centralization) of a graph.
 ** statistical_test** Calculate the p-value for the cp-centralization of the given graph.
-** S1_H2_NETWORK**  This following folder cobtains the matlab code for the network generation corresponding to the S1/H2 model
+
+** generateS1Model.m this following matlab function, which uses the other function hyperbolic_dist_2D code for the network generation corresponding to the S1/H2 model.
     
     
 **  For the network generation corresponding to the PSO Model and the visualisation of the figure 1, in this Mnauscript, we used the publically availble githhub reprository , we provided the Link below
