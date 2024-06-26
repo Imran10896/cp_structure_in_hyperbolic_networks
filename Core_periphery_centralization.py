@@ -9,7 +9,7 @@ import networkx as nx
 
 def cp_centralization(G):
     """
-    Calculate the centralization of a graph using the Coreness-based centralization measure.
+    Calculate the core periphery centralization of a graph.
 
     Parameters:
     G (networkx.Graph): The input graph.
